@@ -30,7 +30,7 @@ const ME = {
   projects: [
     { title: "Library Management System", tags: "C++ / OOP", text: "Created LMS while learning Object-Oriented Programming course.", link: "" },
     { title: "Transport Management System", tags: "C++ / Classes", text: "This was developed for an assignment in OOP course in Second Semester", link: "" },
-    { title: "Community Service Project", tags: "Teamwork", text: "Worked as a team lead and advisor in a community service Project titled "Youth Leadership Development Program" ", link: "" }
+    { title: "Community Service Project", tags: "Teamwork", text: "Worked as a team lead and advisor in a community service Project titled Youth Leadership Development Program", link: "" }
   ],
   links: [{ label: "GitHub", url: "https://github.com/Asjad-Ejaz" }, { label: "LinkedIn", url: "https://linkedin.com/in/asjad-ejaz" }]
 };

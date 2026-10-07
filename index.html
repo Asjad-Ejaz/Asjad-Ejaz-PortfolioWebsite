@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="color-scheme" content="dark">
+    <title>Asjad Ejaz | Software Engineering Student</title>
+    <script>document.documentElement.classList.add("js")</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;800&family=Barlow:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="load" aria-hidden="true"><span id="ld"></span></div>
+    <div id="bar"></div>
+    <canvas id="fx" aria-hidden="true"></canvas>
+    <header>
+        <div class="wrap">
+            <nav>
+                <a class="logo" href="#top" id="logo"></a>
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#journey">Journey</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap" id="top">
+        <div class="hero">
+            <div class="year" id="year" aria-hidden="true"></div>
+            <p class="role" id="role"></p>
+            <h1 id="h1"></h1>
+            <p class="lead" id="lead"></p>
+            <div class="btns"><a class="btn" href="#projects">View my work</a><a class="btn" href="#contact">Contact
+                    me</a></div>
+            <div class="scroll" aria-hidden="true"></div>
+        </div>
+
+        <section id="profile">
+            <h2>Profile</h2>
+            <div class="pwrap">
+                <div class="photo" id="photo"></div>
+                <div>
+                    <h3 class="pname" id="pname"></h3>
+                    <p class="psub" id="psub"></p>
+                    <dl class="info" id="info"></dl>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About</h2>
+            <div>
+                <div id="aboutText"></div>
+                <ul class="skills" id="skills"></ul>
+            </div>
+        </section>
+
+        <section id="journey">
+            <h2>Journey</h2>
+            <div class="tl" id="tl"></div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="projList"></div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <div>
+                <p>Open to internships and collaborations. Send a message and your email app will open with it ready to
+                    send.</p>
+                <form id="form">
+                    <div><label for="n">Your name</label><input id="n" required autocomplete="name"></div>
+                    <div><label for="e">Your email</label><input id="e" type="email" required autocomplete="email">
+                    </div>
+                    <div><label for="m">Message</label><textarea id="m" required></textarea></div>
+                    <button class="btn" type="submit" style="width:max-content">Send message</button>
+                    <p id="msg" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div id="foot"></div>
+            <div class="social" id="social"></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

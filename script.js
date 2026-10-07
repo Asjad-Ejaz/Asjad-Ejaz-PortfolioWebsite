@@ -21,16 +21,16 @@ const ME = {
     ["Languages", "English, Urdu"],
     ["Interests", "Coding, Problem Solving, Teamwork, Learning new technologies"]
   ],
-  skills: ["C++", "Object-Oriented Programming", "Problem solving", "Data Structures", "Teamwork", "Communication"],
+  skills: ["C++", "Object-Oriented Programming", "Problem Solving", "Data Structures", "Teamwork", "Communication"],
   timeline: [   // [when, what]
     ["2025", "Began BS Software Engineering at FAST-NUCES, Multan."],
     ["Now", "Learning C++ and Data Structures Concepts."],
     ["Next", "Internships and real projects with real teams."]
   ],
   projects: [
-    { title: "Library Management System", tags: "C++ / OOP", text: "Example project: replace this with a real one. Describe what it does and what you learned.", link: "" },
-    { title: "Bank Account Simulator", tags: "C++ / Classes", text: "Example project: explain the problem, the classes you designed, and the result.", link: "" },
-    { title: "Community Service Project", tags: "Teamwork", text: "Example project: a team project from your studies. Say what your role was.", link: "" }
+    { title: "Library Management System", tags: "C++ / OOP", text: "Created LMS while learning Object-Oriented Programming course.", link: "" },
+    { title: "Transport Management System", tags: "C++ / Classes", text: "This was developed for an assignment in OOP course in Second Semester", link: "" },
+    { title: "Community Service Project", tags: "Teamwork", text: "Worked as a team lead and advisor in a community service Project titled "Youth Leadership Development Program" ", link: "" }
   ],
   links: [{ label: "GitHub", url: "https://github.com/Asjad-Ejaz" }, { label: "LinkedIn", url: "https://linkedin.com/in/asjad-ejaz" }]
 };
